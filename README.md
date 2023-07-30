@@ -4,6 +4,9 @@
 
 A ideia é fazer um torneio de APIs que passariam por um teste de stress. A API que aguentar mais, ganha :)
 
+# WIP
+Work in progress – por favor, ignore este README por enquanto.
+
 ## Instruções
 Sua aplicação deverá possuir um load balancer Nginx, uma API HTTP (com duas instâncias) e um Banco de Dados Relacional para persistência – Postgres especificamente. Tudo isso será dockerizado via docker-compose. O Nginx e o docker-compose deverão ser configurados para usar duas instâncias da sua API como no exemplo a seguir.
 
